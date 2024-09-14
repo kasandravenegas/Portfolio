@@ -41,3 +41,55 @@
 - Prices vary significantly by zip code, with the most expensive areas costing over $200 per zipcode.
 - The market has a diverse mix of property sizes, with a concentration of 1-4 bedroom listings.
 - Revenue has steadily increased over the years, showing a growing and thriving real estate market.
+
+**Exploratory Data Analysis on Company Layoffs**
+
+## Exploratory Data Analysis on Company Layoffs
+
+### Objectives
+- Perform exploratory data analysis on data from the `layoffs_staging2` table.
+- Calculate the maximum total laid-off and maximum percentage laid-off.
+- Aggregate total layoffs and analyze average layoffs per company.
+- Identify the date range of the layoff data.
+- Summarize total layoffs by country.
+
+### Methodologies
+
+#### 1. Maximum Layoff Metrics
+*This query calculates the maximum total laid-off and percentage laid-off per company:*
+```sql
+SELECT MAX(total_laid_off), MAX(percentage_laid_off)
+FROM layoffs_staging2;
+
+_Company-wise Layoff Totals_
+This query aggregates layoffs for each company and sorts them in descending order of layoffs:
+SELECT company, SUM(total_laid_off) AS total_layoffs
+FROM layoffs_staging2
+GROUP BY company
+ORDER BY total_layoffs DESC;
+
+_Data Time Range_
+This query identifies the earliest and latest dates in the dataset to establish the date range:
+SELECT MIN(date), MAX(date)
+FROM layoffs_staging2;
+
+_Country-wise Layoff Totals_
+This query summarizes total layoffs by country and orders them by total layoffs:
+SELECT country, SUM(total_laid_off) AS total_layoffs
+FROM layoffs_staging2
+GROUP BY country
+ORDER BY total_layoffs DESC;
+
+_Yearly Layoff Trends_
+This query calculates total layoffs per year to observe yearly trends:
+SELECT YEAR(date) AS year, SUM(total_laid_off) AS total_layoffs
+FROM layoffs_staging2
+GROUP BY year
+ORDER BY year ASC;
+
+_Layoffs by Company Stage_
+This query aggregates layoffs by company stage to analyze which stage is most affected:
+SELECT stage, SUM(total_laid_off) AS total_layoffs
+FROM layoffs_staging2
+GROUP BY stage
+ORDER BY total_layoffs DESC;
