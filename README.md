@@ -45,13 +45,9 @@
 ## Exploratory Data Analysis on Company Layoffs
 
 ### Objectives
-- Perform exploratory data analysis on data from the `layoffs_staging2` table.
-- Calculate the maximum total laid-off and maximum percentage laid-off.
-- Aggregate total layoffs and analyze average layoffs per company.
-- Identify the date range of the layoff data.
-- Summarize total layoffs by country.
+The main objective of this analysis is to understand the impact and trends of layoffs across companies, industries, and regions through key statistics like maximum layoffs and percentage impact. 
 
-### Methodologies
+### Methodologies & Key Queries
 
 #### 1. Maximum Layoff Metrics
 - This query calculates the maximum number of total layoffs and the highest percentage of layoffs.
