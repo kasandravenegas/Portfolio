@@ -77,7 +77,12 @@ FROM layoffs_staging2
 GROUP BY country
 ORDER BY total_layoffs DESC;_)
 
-
+#### Key Insights
+- The maximum total number of layoffs recorded in a single entry is 12000.0
+- The highest percentage of workforce layoffs in an entry is 1.0. This indicates significant impacts on specific companies during layoffs.
+- The company with the most layoffs is Amazon, with a total of 18150.0 layoffs. This highlights Amazon as a significant player in overall layoff numbers during the observed period.
+- The dataset covers layoff data from 2020-03-11 to 2023-03-06, encompassing critical periods that align with global economic events, including the COVID-19 pandemic.
+- The United States records the highest total layoffs, emphasizing its significant role in contributing to the overall layoff numbers.
 
 
 
