@@ -84,6 +84,9 @@ ORDER BY total_layoffs DESC;_)
 - The United States records the highest total layoffs, emphasizing its significant role in contributing to the overall layoff numbers.
 
 ## Excel Bike Analysis
+<embed src="assets/img/Excel%20Pivot-Dashboard.pdf" width="600" height="500" alt="pdf">
+
+<p>If the PDF does not display, you can download it directly <a href="assets/img/Excel%20Pivot-Dashboard.pdf">here</a>.</p>
 
 ### Objectives
 - Analyze the demographic factors that influence the decision to purchase a bike.
