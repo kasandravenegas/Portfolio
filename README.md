@@ -43,7 +43,9 @@
 - Revenue has steadily increased over the years, showing a growing and thriving real estate market.
 
 ## Exploratory Data Analysis on Company Layoffs
-You can view or download the detailed analysis in the PDF [here](assets/img/Exploratory%20Data%20Analysis%20on%20Company%20Layoffs%20(2).pdf).
+<embed src="assets/img/Exploratory%20Data%20Analysis%20on%20Company%20Layoffs%20(2).pdf" width="600" height="500" alt="pdf">
+
+<p>If the PDF does not display, you can download it directly <a href="assets/img/Exploratory%20Data%20Analysis%20on%20Company%20Layoffs%20(2).pdf">here</a>.</p>
 
 ### Objectives
 The main objective of this analysis is to understand the impact and trends of layoffs across companies, industries, and regions through key statistics like maximum layoffs and percentage impact. 
