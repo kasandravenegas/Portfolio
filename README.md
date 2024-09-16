@@ -1,7 +1,3 @@
-git commit --allow-empty -m "Trigger fresh deployment"
-git push
-
-
 # Business Analyst
 
 #### Technical Skills: Python, Tableau, R, Excel, SQL, PowerBI, Pandas, Microsoft Office Suite
