@@ -122,7 +122,9 @@ ORDER BY total_layoffs DESC;_)
  - Those with shorter commutes (0-1 miles) are more likely to purchase bikes, highlighting convenience as a key factor.
 
 ## PowerBI Project
+<embed src="assets/img/Power%20BI%20Project%20(2).pdf" width="600" height="500" alt="pdf">
 
+<p>If the PDF does not display, you can download it directly <a href="assets/img/Power%20BI%20Project%20(2).pdf">here</a>.</p>
 #### Objectives
 - Analyze the demographics, salaries, and job satisfaction of data professionals.
 - Identify salary trends by job title and programming language preferences.
