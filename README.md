@@ -54,25 +54,25 @@
 ### Methodologies
 
 #### 1. Maximum Layoff Metrics
-This query calculates the maximum number of total layoffs and the highest percentage of layoffs.
-(_SELECT MAX(total_laid_off) AS max_total_laid_off, MAX(percentage_laid_off) AS max_percentage_laid_off
+- This query calculates the maximum number of total layoffs and the highest percentage of layoffs.
+- (_SELECT MAX(total_laid_off) AS max_total_laid_off, MAX(percentage_laid_off) AS max_percentage_laid_off
 FROM layoffs_staging2;_)
 
 #### 2. Company-wise Layoff Totals
-This query aggregates total layoffs by each company, displaying the companies with the most layoffs.
-(_SELECT company, SUM(total_laid_off) AS total_layoffs
+- This query aggregates total layoffs by each company, displaying the companies with the most layoffs.
+- (_SELECT company, SUM(total_laid_off) AS total_layoffs
 FROM layoffs_staging2
 GROUP BY company
 ORDER BY total_layoffs DESC;_)
 
 #### 3. Data Time Range
-This query identifies the earliest and latest dates in the layoff data, defining the time period covered by the dataset.
-(_SELECT MIN(date) AS start_date, MAX(date) AS end_date
+- This query identifies the earliest and latest dates in the layoff data, defining the time period covered by the dataset.
+- (_SELECT MIN(date) AS start_date, MAX(date) AS end_date
 FROM layoffs_staging2;_)
 
 #### 4. Country-wise Layoff Totals
-This query summarizes the total layoffs by country, showing which countries experienced the most layoffs.
-(_SELECT country, SUM(total_laid_off) AS total_layoffs
+- This query summarizes the total layoffs by country, showing which countries experienced the most layoffs.
+- (_SELECT country, SUM(total_laid_off) AS total_layoffs
 FROM layoffs_staging2
 GROUP BY country
 ORDER BY total_layoffs DESC;_)
