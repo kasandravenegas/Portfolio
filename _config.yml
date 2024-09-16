@@ -1,2 +1,23 @@
-title: Kasandra Venegas
+title: "Kasandra Venegas"
+description: "Kasandra Venegas' Portfolio - Business Analyst"
 remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# GitHub Pages config
+repository: kasandravenegas/Portfolio
+
+# Optional: Set a base URL if deploying to a custom folder
+# baseurl: "/Portfolio"
+
+# Site metadata
+author: "Kasandra Venegas"
+email: "kasandra0venegas@gmail.com"
+url: "https://kasandravenegas.github.io" # Your GitHub Pages URL
+
+# Social links
+github_username: kasandravenegas
+linkedin: https://www.linkedin.com/in/kasandra-v-1604b223b/
+
