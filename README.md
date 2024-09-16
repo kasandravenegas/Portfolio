@@ -88,7 +88,7 @@ ORDER BY total_layoffs DESC;_)
 
 <p>If the PDF does not display, you can download it directly <a href="assets/img/Excel%20Pivot-Dashboard.pdf">here</a>.</p>
 
-### Objectives
+#### Objectives
 - Analyze the demographic factors that influence the decision to purchase a bike.
 - Identify patterns based on income, age, marital status, and other factors related to bike purchases.
 - Segment the customer base by key characteristics (e.g., region, education, occupation) to identify target audiences.
@@ -121,7 +121,31 @@ ORDER BY total_layoffs DESC;_)
 - Professionals and clerical workers have a greater tendency to buy bikes, likely due to shorter commute needs and lifestyle preferences.
  - Those with shorter commutes (0-1 miles) are more likely to purchase bikes, highlighting convenience as a key factor.
 
+## PowerBI Project
 
+#### Objectives
+- Analyze the demographics, salaries, and job satisfaction of data professionals.
+- Identify salary trends by job title and programming language preferences.
+- Explore geographic distribution and work-life balance satisfaction.
 
+#### Methodologies
 
+#### 1. Data Preparation: 
+- Import and clean the dataset in Power BI.
 
+#### 2. Data Modeling:
+- Create relationships between tables for analysis, linking job titles, geographic locations, and salary information.
+- Use calculated columns and measures to compute key statistics such as average salary, job satisfaction, and work-life balance ratings.
+
+#### 3. Visualizations:
+- Use bar charts, pie charts, and gauges to analyze salary, job satisfaction, and geographic distribution.
+
+#### 4. Dashboard:
+- Use slicers to allow users to explore the dataset based on various parameters, such as age, job title, and region.
+
+#### Key Insights
+- Data Scientists and Engineers have the highest average salaries.
+- Python is the most popular programming language.
+- Most respondents are from the US, India, and the UK.
+- Work-life balance is moderate (average 5.74/10).
+- Breaking into the field is generally seen as neither too easy nor too difficult.
