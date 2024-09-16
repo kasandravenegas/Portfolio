@@ -83,6 +83,8 @@ ORDER BY total_layoffs DESC;_)
 - The dataset covers layoff data from 2020-03-11 to 2023-03-06, encompassing critical periods that align with global economic events, including the COVID-19 pandemic.
 - The United States records the highest total layoffs, emphasizing its significant role in contributing to the overall layoff numbers.
 
+## Excel Bike Analysis
+
 
 
 
