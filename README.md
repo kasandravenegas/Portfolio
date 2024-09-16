@@ -50,7 +50,7 @@
 ### Objectives
 The main objective of this analysis is to understand the impact and trends of layoffs across companies, industries, and regions through key statistics like maximum layoffs and percentage impact. 
 
-### Methodologies & Key Queries
+#### Methodologies & Key Queries
 
 #### 1. Maximum Layoff Metrics
 - This query calculates the maximum number of total layoffs and the highest percentage of layoffs.
@@ -85,10 +85,38 @@ ORDER BY total_layoffs DESC;_)
 
 ## Excel Bike Analysis
 
+### Objectives
+- Analyze the demographic factors that influence the decision to purchase a bike.
+- Identify patterns based on income, age, marital status, and other factors related to bike purchases.
+- Segment the customer base by key characteristics (e.g., region, education, occupation) to identify target audiences.
 
+#### Methodologies & Key Formulas
 
+#### 1. Data Segmentation and Conditional Analysis
+- COUNTIFS: Count bike purchases by region and marital status.
+- (_=COUNTIFS(F2:F1000, "Pacific", E2:E1000, "Yes")_)
+- SUMIFS: Sum total income of married individuals who bought bike
+- (_=SUMIFS(D2:D1000, E2:E1000, "Yes", B2:B1000, "M")_)
 
+#### 2. Lookup & Referencing
+- XLOOKUP: Lookup income by customer ID.
+- (_=XLOOKUP(A2, IDRange, IncomeRange)_)
+- INDEX-MATCH: Retrieve income using a flexible lookup
+- (_=INDEX(D2:D1000, MATCH(A2, A2:A1000, 0))_)
 
+#### 3. Pivot Table Extraction
+- GETPIVOTDATA: Extract total income for bike purchasers by region.
+- (_=GETPIVOTDATA("Sum of Income", PivotTable!$A$3, "Region", "Pacific")_)
+
+#### 4. Dynamic Analysis
+- OFFSET: Calculate cumulative income for N entries.
+- (_=SUM(OFFSET(D2, 0, 0, N))_)
+
+#### Key Insights
+- Higher income individuals are more likely to purchase bikes, with a notable increase in bike ownership among those earning over $50,000.
+ - Single individuals without children show a higher propensity for bike purchases compared to married individuals with children.
+- Professionals and clerical workers have a greater tendency to buy bikes, likely due to shorter commute needs and lifestyle preferences.
+ - Those with shorter commutes (0-1 miles) are more likely to purchase bikes, highlighting convenience as a key factor.
 
 
 
