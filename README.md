@@ -23,8 +23,9 @@
 
 ### Projects
 ## AirBnB Real Estate Market Analysis
+<embed src="assets/img/AirBnB%20Full%20Project.pdf" width="600" height="500" alt="pdf">
 
-<embed src="assets/img/AirBnB Full Project.pdf" width="600" height="500" alt="pdf">
+<p>If the PDF does not display, you can download it directly <a href="assets/img/AirBnB%20Full%20Project.pdf">here</a>.</p>
 
 #### Objectives
 - Analyze the average price per bedroom and price per zipcode for a real estate market
