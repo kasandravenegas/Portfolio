@@ -22,7 +22,7 @@
 - Improved process adherence by 35% and reduced training time by standardizing operational efficiency through detailed SOP reports based on analysis of existing procedures.
 
 ### Projects
-**AirBnB Real Estate Market Analysis**
+## AirBnB Real Estate Market Analysis
 
 <embed src="assets/img/AirBnB Full Project.pdf" width="600" height="500" alt="pdf">
 
